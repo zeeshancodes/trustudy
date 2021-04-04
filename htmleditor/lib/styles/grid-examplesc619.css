@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding-bottom: 80px;
+    background: #f4f4f4;
+}
+.page-title{
+    padding: 5px 0;
+    margin-bottom: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px #999999;
+}
+.page-title h1{
+    float: left;
+}
+.page-footer{
+    padding: 15px 0;
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px #999999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 888;
+}
+.page-footer p{
+    margin: 0;
+}
+.container .page-header{
+    padding: 0;
+    margin-top: 45px;
+    border-bottom: 1px solid #d2d2d2;
+}
+a.btn-info, a.btn-info:visited{
+    border-radius: 50px;
+    background: #56C8D8;
+    padding: 6px 12px;
+    outline: none;
+    border: none;
+}
+a.btn-info:hover{
+    background-color: #6ECEDD;
+}
+.header{
+    min-height: 45px;
+}
+.footer{
+    min-height: 30px;
+}
+.header, .footer{
+    background: #2f2f2f;
+}
+.sidebar{
+    background: #dbdfe5;
+}
+.content{
+    background: #b4bac0;
+}
+.sidebar, .content{
+    min-height: 90px;
+}
+.sidebar-top{
+	height: 40px;
+	background: #DBDFE7;
+}
+.sidebar-bottom{
+	height: 44px;
+	background: #7e8aa0;
+	margin-bottom: -6px;
+}
+.content-top{
+	height: 50px;
+	background: #b4bac0;
+}
+.content-bottom{
+	background: #7e8aa0;
+	height: 34px;
+	margin-bottom: -6px;
+}
+.content-bottom.bg-alt{
+	background: #9ca5b6;
+}
+.ad-unit{
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    float: left;
+}
+.intro{
+    background: #7e8aa0;
+    min-height: 60px;
+}
+.section{
+    min-height: 50px;
+    background: #dbdfe5;
+}
+.section.bg-alt{
+    background: #b4bac0;
+}
+body, .container{
+    min-width: 760px;
+}
+.demo-layout .row{
+    padding: 0 !important;
+    margin: 0 -3px 6px;
+}
+.demo-layout .row div{
+    padding: 0 3px;
+}
+.row .col-xs-4:nth-child(1) .wrapper{
+    padding-right: 30px;
+}
+.row .col-xs-4:nth-child(2) .wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row .col-xs-4:nth-child(3) .wrapper{
+    padding-left: 30px;
+}
+.page-header p{
+    font-size: 17px;
+}
+@media (min-width: 1200px){
+    .ad-unit{
+        float: right;
+    }
+}

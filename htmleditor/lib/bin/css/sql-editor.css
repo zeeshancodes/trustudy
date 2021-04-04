@@ -1,0 +1,127 @@
+/* Output table styles */
+table.table{			
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	table-layout: fixed !important;
+	height: auto !important;
+	margin-bottom: -1px;
+}
+table.table th, table.table td{
+	border-bottom: 1px solid #ddd;
+}		
+table.table thead tr th{
+	border-bottom: 2px solid #ddd;
+	border-top: none;
+	font-weight: bold;
+}
+table.table th, table.table td{
+	padding: 8px;
+	text-align: left;
+	vertical-align: middle;
+}
+.preview{
+	position: relative;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.preview  table th, .preview table td{
+	border-left: 1px solid #ddd;
+}
+.preview table th:first-child, .preview table td:first-child{
+	border-left: none;
+}
+.outer-wrapper{
+	padding: 6px 6px 0;
+}
+.output-area{
+	padding-left: 28px;
+	background: #f7f7f7;
+}
+.CodeMirror{
+	border-bottom: 1px solid #ddd;
+}
+.preview{
+	border-left: 1px solid #ddd !important;
+}
+.db-tables{
+	height: auto !important;
+}
+.text-right{
+	text-align: right !important;
+}
+.db-status{
+	width: 220px;
+	background: #f3f3f3;
+	position: relative;
+	height: 100%;
+}
+.db-status a, .db-status a:active, .db-status a:visited{
+	outline: none;
+	color: #4d85a4;
+	text-decoration: none;
+}
+.db-status h4{
+	font-size: 18px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 5px;
+}
+.db-status table th, .db-status table td{
+	padding: 8px 5px;
+}
+.status-box{
+	margin-top: 6px;
+	margin-right: 6px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	overflow-y: auto;
+	height: 100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: url("../../images/loader.gif") no-repeat center 100px #fff;
+}
+.hide-db-pane, .show-db-pane{
+	width: 7px;
+	height: 23px;
+	position: absolute;
+	z-index: 999;
+	display: block;
+	cursor: pointer;
+	top: 32px;
+	outline: 0;
+	text-decoration: none;
+	background: url("../../images/toggle-button.png") no-repeat;
+}
+.hide-db-pane{
+	left: 0;
+	background-position: 0 -23px;
+}
+.show-db-pane{
+	right: 6px;
+	background-position: 0 0;
+	display: none;
+}
+.hint-text{
+	color: #000;
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	/*
+	font-size: 12px;
+	font-family: MenschRegular,Menlo,Monaco,consolas,monospace;
+	*/
+}
+.hint-text strong, .error-msg b{
+	font-weight: bold;
+}
+.hint-text p, .error-msg p{
+	padding-bottom: 5px;
+}
+.error-msg{
+	color: #000;
+	display: none;
+	padding: 2px 4px;
+	background: #fff;
+	min-height: 130px;
+}

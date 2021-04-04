@@ -1,0 +1,197 @@
+body {
+	color: #333;
+	background: #F3F3F3;
+	font-family: "Roboto", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}        
+.CodeMirror {
+	border: 1px solid #ddd;
+	height: 450px;
+	font-size: 90%;
+	margin-bottom: 6px;
+	background: white;
+}
+.CodeMirror-code{
+	text-align: left !important;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.action{
+	margin: 20px 0;
+	text-align: center;
+}
+.action .btn, .settings .btn{            
+	border-radius: 0;                      
+	background: #37BC9B;
+	color: #fff;
+	border: none;
+}
+.action .btn{
+	min-width: 250px;
+	margin: 0 10px;
+	padding: 10px 20px;
+	font-size: 15px;
+}
+a.turn-off-codemirror {
+	margin-left: 25px;
+}
+.settings .btn{
+	padding: 6px 15px;
+	font-size: 13px;
+}
+.btn:hover{
+	background: #e44f26;
+}
+.subheading{
+	font-size: 16px;
+	margin: 15px 0 0;
+}
+textarea.form-control{
+	height: 350px;
+	resize: vertical;
+	resize: vertical;
+	font-family: monospace;
+	font-size: 13.5px;
+	border-radius: 0;
+}
+.header{
+	text-align: center;
+}
+.header h1{
+	font-size: 46px;
+	margin-top: 25px;
+	color: #42546f;
+	font-family: "Varela Round", sans-serif;
+	font-weight: bold;
+}
+.title{
+	background-color: #42546f;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	bottom: -1px;
+	z-index: 9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+	letter-spacing: 1px;
+}
+h1 span{
+	color: #e44f26;
+}
+.settings .checkbox, .settings .radio{
+	display: inline-block;
+}                     
+.settings{            
+	color: #fff;
+	font: 13px Arial, sans-serif;
+	position: fixed;
+	top: 265px;
+	left: -275px;
+	z-index: 99;
+}
+.settings label{
+	display: block;
+	color: #9da5b3;
+	padding-bottom: 10px;
+}
+.align-label {
+	margin: 20px 0 12px;
+}
+.align-label input {
+	position: relative;
+	margin-top: 1px
+}
+.box{
+	float:right;
+}
+.box-inner{
+	width: 275px;
+	padding: 20px;
+	background:#42546f;
+	text-align: left;
+}
+.settings .gear-btn, .settings .gear-btn:focus, .settings .gear-btn:hover{
+	background: #42546f !important;
+	color: #fff;
+	border-radius: 0;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: -50px;
+	min-height: 45px;
+	outline: none !important;
+	font-size: 20px;
+}
+.gear-btn span{
+	position: relative;
+	top: -1px;
+	left: -1px;
+}
+.settings select{
+	width: 100%;
+	color: #fff;
+	background: #1b1d23;
+	border: none;
+}
+.settings a{
+	color: #37BC9B;
+	text-decoration: underline;
+}
+.settings a:hover{
+	color: #e44f26;
+}
+.close-btn{
+	min-width: 100%;
+}
+.ad-wrapper{
+	text-align: center;
+    margin: 5px 0 15px 0;
+}
+.ad-wrapper .ad-box{
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+	background: #F3F3F3;
+}
+#testresults {
+	display: none;
+	font-family: monaco, "lucida console", "courier new", monospace;
+}
+.footer{
+	color: #a7a7a7;
+	font-size: 13.4px;
+	padding: 30px 0;
+	text-align: center;
+}
+.footer p, .footer ul{
+	display: inline-block;
+}
+.footer a{
+	color: #a7a7a7;
+	text-decoration: underline;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.footer .copyright-notice{
+	margin-right: 10px;
+}
+.action-msg{
+	font-size: 13px;
+	height: 30px;
+	padding: 6px;
+    margin-bottom: -30px;
+}
+.ad-label {
+    color: #aaa;
+    letter-spacing: .5px;
+    font-size: 10.4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
